@@ -279,7 +279,7 @@ body {
   .today2, .today3, .today4, .today5{
     width: 22vw;
     height: 12rem;
-    transform: translate(-3.2rem, 6.5rem);
+    transform: translate(-3.2rem, 8rem);
   }
 
   /* This is for today's box */
@@ -405,7 +405,7 @@ body {
     border-radius: 5px;
     margin-top: 1px;
     width: 95vw;
-    height: 26rem;
+    height: 30rem;
     padding: 1px 1px;
     display: flex;
     align-items: center;

@@ -68,18 +68,13 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
     console.log('today 7' + today7)
 
     return weatherData.length < 1 ? (
-        <div>
-            <h1>Bembe-Weather App</h1>
-
-            <div className="message">
+        <div className="message">
             <p className="loading">
                 For US City: Enter the City, or City and State. For Other Country's City:
                 Enter City, or City and Country's Code.
             </p>
+            <SearchForm/>
         </div>
-        <br></br><br/><br/>
-        </div>
-
     ) : (
         <div className="bodyContainer">
         {/* Display the city */}
@@ -115,13 +110,13 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                 console.log(index)
                 return (
                 <div key={index} className="today1">
-                    <p className="single1">{dayName}</p>
-                    <p className="date1">
+                    <p className="singleDayH1">{dayName}</p>
+                    <p className="date">
                     {month}/{dayDate}/{year}
                     </p>
 
                     <img
-                    className="icon1"
+                    className="icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                     />
@@ -131,15 +126,15 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                     <span>&#176;</span>
                     </p>
 
-                    <div className="temp1">
-                        <p className="maxTemp1">
-                            {maxTempF}
-                            <span>&#176;</span>
-                        </p>
-                        <p className="minTemp1">
-                            {minTempF}
-                            <span>&#176;</span>
-                        </p>
+                    <div className="temp">
+                    <p className="maxTemp">
+                        {maxTempF}
+                        <span>&#176;</span>
+                    </p>
+                    <p className="minTemp">
+                        {minTempF}
+                        <span>&#176;</span>
+                    </p>
                     </div>
                 </div>
                 )

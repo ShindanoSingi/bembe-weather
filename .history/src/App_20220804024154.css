@@ -236,12 +236,6 @@ body {
 
 /* iPhone 8 and smaller */
 @media screen and (max-width: 375px) {
-
-  /* Bembe-weather App */
-  h1{
-    text-align: center;
-  }
-
   /* Informationin a single day box */
   .singleDayH1 {
     padding: 0 0.2rem;
@@ -279,7 +273,7 @@ body {
   .today2, .today3, .today4, .today5{
     width: 22vw;
     height: 12rem;
-    transform: translate(-3.2rem, 6.5rem);
+    transform: translate(-3.2rem, 8rem);
   }
 
   /* This is for today's box */
@@ -294,33 +288,8 @@ body {
     position: relative;
     top: -6.5rem;
     left: 45vw;
-    height: 12rem;
+    height: 16rem;
     width: 20rem;
-    padding: 0.01rem 0rem;
-  }
-
-  .single1{
-    transform: translateY(3.2rem);
-  }
-  .date1{
-    transform: translateY(2rem);
-  }
-
-  .temp1{
-      justify-content: center;
-      display: flex;
-      gap: 0.5rem;
-      transform: translateY(-3rem);
-    }
-
-   /* Indivdual temp */
-    .maxTemp1 {
-    color: black;
-  }
-
-  /* Indivdual temp */
-  .minTemp1 {
-    color: grey;
   }
 
   /* Tomorrow */
@@ -367,8 +336,6 @@ body {
     flex-direction: column;
   }
 
-
-
   /* Temperature div */
   .temp {
     justify-content: center;
@@ -387,10 +354,8 @@ body {
   }
 
   .currentTemp {
-    transform: translateY(-1rem);
     font-size: 1.2rem;
     font-weight: bold;
-    transform: translateY(-2rem);
   }
 
   /* The state's name */
@@ -405,7 +370,7 @@ body {
     border-radius: 5px;
     margin-top: 1px;
     width: 95vw;
-    height: 26rem;
+    height: 30rem;
     padding: 1px 1px;
     display: flex;
     align-items: center;

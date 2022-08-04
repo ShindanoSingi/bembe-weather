@@ -279,7 +279,7 @@ body {
   .today2, .today3, .today4, .today5{
     width: 22vw;
     height: 12rem;
-    transform: translate(-3.2rem, 6.5rem);
+    transform: translate(-3.2rem, 8rem);
   }
 
   /* This is for today's box */
@@ -304,23 +304,6 @@ body {
   }
   .date1{
     transform: translateY(2rem);
-  }
-
-  .temp1{
-      justify-content: center;
-      display: flex;
-      gap: 0.5rem;
-      transform: translateY(-3rem);
-    }
-
-   /* Indivdual temp */
-    .maxTemp1 {
-    color: black;
-  }
-
-  /* Indivdual temp */
-  .minTemp1 {
-    color: grey;
   }
 
   /* Tomorrow */
@@ -367,7 +350,11 @@ body {
     flex-direction: column;
   }
 
-
+  .temp1{
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+  }
 
   /* Temperature div */
   .temp {
@@ -405,7 +392,7 @@ body {
     border-radius: 5px;
     margin-top: 1px;
     width: 95vw;
-    height: 26rem;
+    height: 30rem;
     padding: 1px 1px;
     display: flex;
     align-items: center;

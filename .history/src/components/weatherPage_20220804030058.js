@@ -131,7 +131,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                     <span>&#176;</span>
                     </p>
 
-                    <div className="temp1">
+                    <div className="temp">
                         <p className="maxTemp1">
                             {maxTempF}
                             <span>&#176;</span>
