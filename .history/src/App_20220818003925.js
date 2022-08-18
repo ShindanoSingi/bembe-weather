@@ -23,7 +23,7 @@ function App() {
     stateCode: "",
     country: "",
     limit: 1,
-    api: "https://api.openweathermap.org/geo/1.0/direct?q=",
+    api: "http://api.openweathermap.org/geo/1.0/direct?q=",
   }
 
   let searchOptions = {
