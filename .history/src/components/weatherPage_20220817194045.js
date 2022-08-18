@@ -111,9 +111,10 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
 
           // return one day/today
           if (index === 0 && index !== 7) {
-            console.log(index)
-            return (
-              <div key={index} className="today1">
+              console.log(index)
+                  < div >
+                   return (
+                <div key={index} className="today1">
                 <p className="single1">{dayName}</p>
                 <p className="date1">
                   {month}/{dayDate}/{year}
@@ -246,6 +247,8 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                 </div>
               </div>
             )
+
+
           }
         })}
       </div>

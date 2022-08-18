@@ -9,7 +9,7 @@ div.singleDay {
   font-size: 1vw;
   border-top: 1px solid green;
   background-color: rgb(191, 191, 191);
-  height: 100vh;
+  height: 100%;
 }
 
 /* Date in each day box */
@@ -23,7 +23,7 @@ div.singleDay {
 }
 
 .cityStateCountry {
-  transform: translateY(-0.6rem);
+  transform: translateY(-2rem);
 }
 
 /* Div container for each weather box */
@@ -419,7 +419,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -702,7 +702,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -985,7 +985,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -1242,7 +1242,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -1524,7 +1524,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -1806,7 +1806,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -2088,7 +2088,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -2371,7 +2371,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -2654,7 +2654,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -2934,7 +2934,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -3210,7 +3210,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -3272,7 +3272,7 @@ body {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
    /* Bembe-weather App */
   h1 {
     font-size: x-large;
@@ -3484,7 +3484,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -3759,7 +3759,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -4034,7 +4034,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */
@@ -4309,7 +4309,7 @@ body {
     background-image: url("./images/sky.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
   }
 
   /* contains everything below input box and the search button */

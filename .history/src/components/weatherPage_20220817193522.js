@@ -56,14 +56,14 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
   ).toUTCString()
   today7 = today7.toString().substring(0, 3)
 
-  //   console.log("today 0" + today0)
-  //   console.log("today 1" + today1)
-  //   console.log("today 2" + today2)
-  //   console.log("today 3" + today3)
-  //   console.log("today 4" + today4)
-  //   console.log("today 5" + today5)
-  //   console.log("today 6" + today6)
-  //   console.log("today 7" + today7)
+  console.log("today 0" + today0)
+  console.log("today 1" + today1)
+  console.log("today 2" + today2)
+  console.log("today 3" + today3)
+  console.log("today 4" + today4)
+  console.log("today 5" + today5)
+  console.log("today 6" + today6)
+  console.log("today 7" + today7)
 
   return weatherData.length < 1 ? (
     <div>
