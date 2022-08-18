@@ -1,4 +1,4 @@
-
+@media screen and (max-width: 1728px) {
 /* Informationin a single day box */
 .singleDayH1 {
   padding: 0 1rem;
@@ -200,7 +200,7 @@ body {
   color: rgb(244, 238, 238);
   background-color: rgb(68, 65, 65);
 }
-
+}
 
 @media screen and (max-width: 1441px) {
           /* Bembe-weather App */
