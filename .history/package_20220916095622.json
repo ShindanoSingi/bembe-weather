@@ -11,8 +11,13 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {"dev": "react-scripts start","start": "serve -s build","build": "react-scripts build","test": "react-scripts test --env=jsdom","eject": "react-scripts eject","heroku-postbuild": "npm run build"}
-,
+  "scripts": {
+    "start": "npm run build:css && react-scripts start",
+    "build": "tailwindcss -i style.css -o css/style.css --watch",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": ""
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
