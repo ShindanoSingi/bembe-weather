@@ -91,24 +91,7 @@ function App() {
   return (
 
     <div className="bg-[url('../src/images/sky.webp')] bg-cover min-h-screen flex flex-col justify-between">
-      {/* Weather data */}
-      <WeatherPage
-        weatherData={weatherData}
-        city={cityDisplayed}
-        state={stateDisplayed}
-        country={countryDisplayed}
-      />
 
-      {/* Search form */}
-      <SearchForm
-        city={city}
-        state={state}
-        country={country}
-        handleChangeCity={handleChangeCity}
-        handleChangeState={handleChangeState}
-        handleChangeCountry={handleChangeCountry}
-        handleSubmit={handleSubmit}
-      />
     </div>
   )
 }
