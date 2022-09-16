@@ -1,0 +1,726 @@
+/* Informationin a single day box */
+.singleDayH1 {
+  padding: 0 1rem;
+}
+
+/* Div container for the single page weather day*/
+div.singleDay {
+  font-size: 1vw;
+  border-top: 1px solid green;
+  background-color: rgb(191, 191, 191);
+  height: 100%;
+}
+
+/* Date in each day box */
+.date {
+  margin-top: 0rem;
+}
+
+/* Each element below dayName in the each day box */
+.icon {
+  margin-top: -1.5rem;
+}
+
+.cityStateCountry{
+  transform: translateY(-2rem);
+}
+
+/* Div container for each weather box */
+.weatherDay {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* This is for today's box */
+.today1 {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(163, 131, 131), rgb(181, 181, 155));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tomorrow */
+.today2 {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The day after tomorrow */
+.today3 {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The following day */
+.today4 {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The last day */
+.today5 {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Temperature div */
+.temp {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Indivdual temp */
+.maxTemp {
+  color: black;
+}
+
+/* Indivdual temp */
+.minTemp {
+  color: grey;
+}
+
+.currentTemp {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* The state's name */
+.city {
+  display: grey;
+  justify-content: center;
+}
+
+/* Div containing everything in the body */
+.weatherContainer {
+  border: 1px solid rgb(91, 158, 158);
+  border-radius: 5px;
+  margin-top: 2px;
+  width: 500px;
+  padding: 2vh 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The body */
+body {
+  background-image: url('./images/sky.webp');
+  background-size: cover;
+}
+
+/* contains everything below input box and the search button */
+.bodyContainer {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 8vh auto;
+}
+
+/* City, state and title */
+.cityStateCountry {
+  font-size: 25px;
+}
+
+/* Nav Bar contains inputs boxes and the submit button */
+.navbar {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin-top: 55px
+}
+
+/* City input box */
+.cityInput {
+  border: 2px solid rgb(68, 65, 65);
+}
+
+/* Country input box */
+.countryInput {
+  width: 200px;
+  border: 2px solid rgb(68, 65, 65);
+}
+
+/* Loading information */
+.loading {
+  text-align: center;
+}
+
+/* Submit button */
+.submitButton {
+  color: rgb(244, 238, 238);
+  background-color: rgb(68, 65, 65);
+}
+
+
+
+@media screen and (min-width: 1441px) {
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+}
+
+
+@media screen and (max-width: 480px) {
+}
+
+
+/* Samsung S 2e0 ultra */
+@media screen and (max-width: 412px) {
+
+}
+
+
+/* iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+   /* Bembe-weather App */
+  h1{
+    font-size: x-large;
+    padding: 5px;
+    width: 95%;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: rgb(19, 95, 95);
+  }
+
+  /* Informationin a single day box */
+  .singleDayH1 {
+    padding: 0 0.2rem;
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    font-size: 1vw;
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  /* Date in each day box */
+  .date {
+    margin-top: 0rem;
+  }
+
+  /* Each element below dayName in the each day box */
+  .icon {
+    margin-top: -1.5rem;
+  }
+
+  /* Div container for each weather box */
+  .weatherDay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cityStateCountry{
+    transform: translateY(-2.5rem);
+  }
+
+  .today2, .today3, .today4, .today5{
+    width: 22vw;
+    height: 12rem;
+    transform: translate(-3.2rem, 6.5rem);
+  }
+
+  /* This is for today's box */
+  .today1 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(163, 131, 131), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -6.5rem;
+    left: 45vw;
+    height: 12rem;
+    width: 20rem;
+    padding: 0.01rem 0rem;
+  }
+
+  .single1{
+    transform: translateY(3.2rem);
+  }
+  .date1{
+    transform: translateY(2rem);
+  }
+
+  .temp1{
+      justify-content: center;
+      display: flex;
+      gap: 0.5rem;
+      transform: translateY(-3rem);
+    }
+
+   /* Indivdual temp */
+    .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Temperature div */
+  .temp {
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  .currentTemp {
+    transform: translateY(-1rem);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform: translateY(-2rem);
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+    justify-content: center;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    margin-top: 1px;
+    width: 95vw;
+    height: 26rem;
+    padding: 1px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -2rem;
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* The body */
+  body {
+    font-size: 16px;
+    background-image: url('./images/sky.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  /* contains everything below input box and the search button */
+  .bodyContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* margin: 8vh auto; */
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  .cityInput, .countryInput, .stateCode, .submitButton {
+    font-size: 20px;
+    padding: 5px;
+    width: 92vw;
+    text-align: center;
+  }
+  /* Loading information */
+  .loading {
+    text-align: center;
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+    width: 25vw;
+    align-self: center;
+  }
+
+  .message {
+    padding: 0.001rem 0.5rem;
+    width: 90.5vw;
+    transform: translateY(1rem);
+    background-color: rgb(68, 125, 152);
+    margin: 0 auto;
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    position: relative;
+    bottom: 4.5rem;
+  }
+  }
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 375px) {
+
+  /* Bembe-weather App */
+  h1{
+    font-size: x-large;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(19, 95, 95);
+  }
+
+  /* Informationin a single day box */
+  .singleDayH1 {
+    padding: 0 0.2rem;
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    font-size: 1vw;
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  /* Date in each day box */
+  .date {
+    margin-top: 0rem;
+  }
+
+  /* Each element below dayName in the each day box */
+  .icon {
+    margin-top: -1.5rem;
+  }
+
+  /* Div container for each weather box */
+  .weatherDay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cityStateCountry{
+    transform: translateY(-2.5rem);
+  }
+
+  .today2, .today3, .today4, .today5{
+    width: 22vw;
+    height: 12rem;
+    transform: translate(-3.2rem, 6.5rem);
+  }
+
+  /* This is for today's box */
+  .today1 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(163, 131, 131), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -6.5rem;
+    left: 45vw;
+    height: 12rem;
+    width: 20rem;
+    padding: 0.01rem 0rem;
+  }
+
+  .single1{
+    transform: translateY(3.2rem);
+  }
+  .date1{
+    transform: translateY(2rem);
+  }
+
+  .temp1{
+      justify-content: center;
+      display: flex;
+      gap: 0.5rem;
+      transform: translateY(-3rem);
+    }
+
+   /* Indivdual temp */
+    .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(97, 179, 171), rgb(181, 181, 155));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Temperature div */
+  .temp {
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  .currentTemp {
+    transform: translateY(-1rem);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform: translateY(-2rem);
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+    justify-content: center;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    margin-top: 1px;
+    width: 95vw;
+    height: 26rem;
+    padding: 1px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -2rem;
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* The body */
+  body {
+    font-size: 16px;
+    background-image: url('./images/sky.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  /* contains everything below input box and the search button */
+  .bodyContainer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* margin: 8vh auto; */
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  .cityInput, .countryInput, .stateCode, .submitButton {
+    font-size: 20px;
+    padding: 5px;
+    width: 92vw;
+    text-align: center;
+  }
+  /* Loading information */
+  .loading {
+    text-align: center;
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+    width: 25vw;
+    align-self: center;
+  }
+
+  .message {
+    padding: 0.001rem 0.5rem;
+    width: 90.5vw;
+    transform: translateY(1rem);
+    background-color: rgb(68, 125, 152);
+    margin: 0 auto;
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    position: relative;
+    bottom: 4.5rem;
+  }
+}
