@@ -1,0 +1,633 @@
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 480px) {
+  /* Bembe-weather App */
+  h1 {
+    color: aliceblue;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    /* font-size: 1vw; */
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  /* This is for today's box */
+  .today1 {
+    /* font-size: 14px; */
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(163, 131, 131),
+      rgb(181, 181, 155)
+    );
+  }
+
+
+  /* Indivdual temp */
+  .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+    /* justify-content: center; */
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+  }
+
+  .message {
+    background-color: rgb(68, 125, 152);
+    border: 2px solid rgb(68, 65, 65);
+  }
+}
+
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 428px) {
+  h1 {
+    color: aliceblue;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* This is for today's box */
+  .today1 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(163, 131, 131),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+  }
+
+  .message {
+    background-color: rgb(68, 125, 152);
+    border: 2px solid rgb(68, 65, 65);
+  }
+}
+
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 414px) {
+  h1 {
+    color: aliceblue;
+    padding: 5px;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  .cityStateCountry {
+    padding: 0.5rem;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* This is for today's box */
+  .today1 {
+    /* font-size: 14px; */
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(163, 131, 131),
+      rgb(181, 181, 155)
+    );
+  }
+
+
+  /* Indivdual temp */
+  .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+  }
+
+  .message {
+    background-color: rgb(68, 125, 152);
+    border: 2px solid rgb(68, 65, 65);
+  }
+}
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 390px) {
+  h1 {
+    color: aliceblue;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  .cityStateCountry {
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* This is for today's box */
+  .today1 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(163, 131, 131),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+  }
+
+  .message {
+    background-color: rgb(68, 125, 152);
+    border: 2px solid rgb(68, 65, 65);
+  }
+}
+
+/* iPhone 8 and smaller */
+@media screen and (max-width: 375px) {
+  h1 {
+    color: aliceblue;
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* Div container for the single page weather day*/
+  div.singleDay {
+    border-top: 1px solid green;
+    background-color: rgb(191, 191, 191);
+  }
+
+  .cityStateCountry {
+    background-image: linear-gradient(rgb(55, 131, 143), rgb(5, 88, 126));
+  }
+
+  /* This is for today's box */
+  .today1 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(163, 131, 131),
+      rgb(181, 181, 155)
+    );
+  }
+
+  .temp1 {
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+    transform: translateY(-3rem);
+  } */
+
+  /* Indivdual temp */
+  .maxTemp1 {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp1 {
+    color: grey;
+  }
+
+  /* Tomorrow */
+  .today2 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The day after tomorrow */
+  .today3 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The following day */
+  .today4 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* The last day */
+  .today5 {
+    border: 1px solid rgb(91, 158, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(97, 179, 171),
+      rgb(181, 181, 155)
+    );
+  }
+
+  /* Indivdual temp */
+  .maxTemp {
+    color: black;
+  }
+
+  /* Indivdual temp */
+  .minTemp {
+    color: grey;
+  }
+
+  /* The state's name */
+  .city {
+    display: grey;
+  }
+
+  /* Div containing everything in the body */
+  .weatherContainer {
+    border: 1px solid rgb(91, 158, 158);
+    background-color: rgba(14, 73, 112, 0.297);
+  }
+
+  /* City input box */
+  .cityInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Country input box */
+  .countryInput {
+    border: 2px solid rgb(68, 65, 65);
+  }
+
+  /* Submit button */
+  .submitButton {
+    color: rgb(244, 238, 238);
+    background-color: rgb(68, 65, 65);
+  }
+
+  .message {
+    background-color: rgb(68, 125, 152);
+    border: 2px solid rgb(68, 65, 65);
+  }
+}
+
+
