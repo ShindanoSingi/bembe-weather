@@ -151,7 +151,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                     alt=""
                   />
 
-                  <div className="flex gap-4 3xl:text-2xl 2xl:text-xl xl:text-2xl xl:gap-8 temp lg:text-3xl md:text-3xl">
+                  <div className="flex gap-2 3xl:text-2xl 2xl:text-xl xl:text-2xl xl:gap-8 temp lg:text-3xl md:text-3xl">
                     <p className="maxTemp">
                       {maxTempF}
                       <span>&#176;</span>
@@ -177,7 +177,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                     alt=""
                   />
 
-                  <div className="flex gap-4 3xl:text-2xl 2xl:text-xl xl:text-2xl xl:gap-8 lg:text-3xl temp">
+                  <div className="flex gap-2 3xl:text-2xl 2xl:text-xl xl:text-2xl xl:gap-8 lg:text-3xl temp">
                     <p className="maxTemp">
                       {maxTempF}
                       <span>&#176;</span>

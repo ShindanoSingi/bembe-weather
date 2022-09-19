@@ -122,7 +122,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   <span>&#176;</span>
                 </strong>
 
-                <div className="relative flex items-center gap-4 3xl:text-2xl xl:text-2xl xl:gap-6 lg:text-3xl temp1">
+                <div className="relative flex items-center gap-[1rem] 3xl:text-2xl xl:text-2xl xl:gap-6 lg:text-3xl temp1">
                   <p className="maxTemp1 2xl:text-xl md:text-3xl">
                     {maxTempF}
                     <span>&#176;</span>
