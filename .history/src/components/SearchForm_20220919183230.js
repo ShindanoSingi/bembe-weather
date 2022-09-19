@@ -26,7 +26,7 @@ const SearchForm = ({
 
         {/* Country input */}
         <input
-          className="px-3 3xl:text-2xl md:text-2xl 3xl:rounded-lg 2xl:rounded-lg xl:rounded-lg 2xl:w-[50vw] 2xl:text-xl lg:p-2 xl:text-3xl xl:w-[80vw] xl:py-2 lg:rounded-md lg:text-3xl lg:w-[80vw] md:w-[70vw] md:rounded-md text-center md:p-2 py-1 countryInput"
+          className="px-3 3xl:text-2xl md:text-3xl 3xl:rounded-lg 2xl:rounded-lg xl:rounded-lg 2xl:w-[50vw] 2xl:text-xl lg:p-2 xl:text-3xl xl:w-[80vw] xl:py-2 lg:rounded-md lg:text-3xl lg:w-[80vw] md:w-[70vw] md:rounded-md text-center md:p-2 py-1 countryInput"
           placeholder="Type the state"
           type="text"
           name="SearchString"
@@ -36,7 +36,7 @@ const SearchForm = ({
 
         {/* Country input */}
         <input
-          className="px-3 3xl:text-2xl 2xl:text-xl md:text-2xl 3xl:rounded-lg 2xl:rounded-lg 2xl:w-[50vw] xl:rounded-lg lg:p-2 xl:text-3xl xl:w-[80vw] xl:py-2 lg:rounded-md lg:text-3xl lg:w-[80vw] md:w-[70vw] md:rounded-md text-center md:p-2 py-1 countryInput"
+          className="px-3 3xl:text-2xl 2xl:text-xl md:text-3xl 3xl:rounded-lg 2xl:rounded-lg 2xl:w-[50vw] xl:rounded-lg lg:p-2 xl:text-3xl xl:w-[80vw] xl:py-2 lg:rounded-md lg:text-3xl lg:w-[80vw] md:w-[70vw] md:rounded-md text-center md:p-2 py-1 countryInput"
           placeholder="Type the country code (TZ, CD...)"
           type="text"
           name="SearchString"
