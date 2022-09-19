@@ -78,7 +78,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
       </div>
 
       <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[36rem] 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:px-20 xl:h-[62rem] 2xl:h-[34rem] 3xl:flex 3xl:items-center 3xl:px-[19rem] 3xl:relative 3xl:top-16 3xitems-baseline 3xl:w-[80vw] mx-auto weatherContainer">
-        {weekDays.map((day, index) => {
+        {weekDays.forEach((day, index) => {
           // Source https://www.youtube.com/watch?v=nGVoHEZojiQ
           const dayAndDate = new Date(day.dt * 1000).toUTCString()
           console.log(dayAndDate)
@@ -242,7 +242,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                 </div>
               )
             }
-          } return '';
+          }
         }
           )
           }
