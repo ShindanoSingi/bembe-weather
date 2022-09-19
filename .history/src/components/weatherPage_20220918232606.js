@@ -77,7 +77,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
         {city}, {state}, {country}{" "}
       </div>
 
-      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[36rem] 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:px-20 xl:h-[62rem] 2xl:h-[70vh] 3xl:flex 3xl:items-center 3xl:px-[9rem] 3xl:relative 3xl:top-16 3xl:w-[80vw] mx-auto weatherContainer">
+      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[36rem] 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:px-20 xl:h-[62rem] 2xl:h-[34rem] 3xl:flex 3xl:items-center 3xl:px-[9rem] 3xl:relative 3xl:top-16 3xl:w-[80vw] mx-auto weatherContainer">
         {weekDays.map((day, index) => {
           // Source https://www.youtube.com/watch?v=nGVoHEZojiQ
           const dayAndDate = new Date(day.dt * 1000).toUTCString()
@@ -103,7 +103,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
           if (index === 0 && index !== 7) {
             console.log(index)
             return (
-              <div key={index} className="fixed 2xl:h-[16rem] xl:h-[25rem]  xl:absolute xl:top-[8rem] xl:left-[39%] xl:w-[15rem] lg:fixed flex flex-col 2xl:left-[43%] 2xl:top-[5rem] items-center px-2 xl:flex xl:justify-around lg:top-[6rem] py-1 left-[36%] h-[13rem] xs:left-[10%] xs:flex-row xs:h-[4.5rem] lg:left-[39%] lg:h-80 lg:w-48 xs:justify-baseline top-[3rem] md:left-[36vw] md:top-[4.5rem] md:w-[15rem] md:h-[18.5rem] place-content-center md:flex 3xl:left-0 3xl:top-[0rem] 3xl:h-[24rem] 2xl:w-[12rem] md:flex-col md:justify-around xs:w-[80vw] md:text-xl today1 3xl:relative 3xl:w-[13rem] 3xl:flex 3xl:justify-around">
+              <div key={index} className="fixed 2xl:h-[16rem] xl:h-[25rem] xl:absolute xl:top-[8rem] xl:left-[39%] xl:w-[15rem] lg:fixed flex flex-col 2xl:left-[43%] 2xl:top-[5rem] items-center px-2 xl:flex xl:justify-around lg:top-[6rem] py-1 left-[36%] h-[13rem] xs:left-[10%] xs:flex-row xs:h-[4.5rem] lg:left-[39%] lg:h-80 lg:w-48 xs:justify-baseline top-[3rem] md:left-[36vw] md:top-[4.5rem] md:w-[15rem] md:h-[18.5rem] place-content-center md:flex 3xl:left-0 3xl:top-[0rem] 3xl:h-[24rem] 2xl:w-[12rem] md:flex-col md:justify-around xs:w-[80vw] md:text-xl today1 3xl:relative 3xl:w-[13rem] 3xl:flex 3xl:justify-around">
 
                 <p className="text-lg lg:text-4xl md:text-4xl single1 xl:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                 <p className="text-sm md:text-3xl date1 xl:text-2xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
@@ -139,7 +139,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
           else {
             if (index === 1) {
               return (
-                <div key={index} className="flex 3xl:w-[13rem] xl:h-[25rem] 2xl:relative 2xl:top-[55%] xl:w-[13rem] 2xl:h-[16rem] lg:h-80 3xl:h-[20rem] lg:w-48 md:w-[11.8rem] 2xl:w-[12rem] md:h-[18rem]  justify-around lg:relative lg:top-[28rem] xs:relative ml-1 flex-col items-center py-2 h-[13rem] xs:h-[10rem] xs:top-[10rem] 3xl:top-[0rem] md:relative md:top-[23.5rem] xl:relative xl:top-[55%] top-[17rem]  today2 w-[24%]  relative mx-auto">
+                <div key={index} className="flex 3xl:w-[13rem] xl:h-[25rem] xl:w-[13rem] 2xl:h-[16rem] lg:h-80 3xl:h-[20rem] lg:w-48 md:w-[11.8rem] 2xl:w-[12rem] md:h-[18rem]  justify-around lg:relative lg:top-[28rem] xs:relative ml-1 flex-col items-center py-2 h-[13rem] xs:h-[10rem] xs:top-[10rem] 3xl:top-[0rem] md:relative md:top-[53.5rem] xl:relative xl:top-[36rem] top-[17rem]  today2 w-[24%]  relative mx-auto">
                   <p className="text-lg singleDayH1 md:text-4xl xl:text-4xl lg:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                   <p className="text-sm date xl:text-2xl md:text-3xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
                     {month}/{dayDate}/{year}
@@ -165,7 +165,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
               )
             } else if (index === 2) {
               return (
-                  <div key={index} className="flex 3xl:h-[20rem] 3xl:text-3xl 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[55%] xl:w-[13rem] 2xl:w-[12rem] 2xl:relative 2xl:top-[55%] lg:relative lg:top-[28rem] lg:h-80 lg:w-48 md:w-[11.8rem] md:h-[18rem]  xs:h-[10rem] 3xl:w-[13rem] flex-col items-center h-[13rem] day justify-around py-2 md:text-3xl 3xl:top-[0rem]  xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today4 relative  mx-auto w-[24%]">
+                  <div key={index} className="flex 3xl:h-[20rem] 3xl:text-3xl 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[36rem] xl:w-[13rem] 2xl:w-[12rem] lg:relative lg:top-[28rem] lg:h-80 lg:w-48 md:w-[11.8rem] md:h-[18rem]  xs:h-[10rem] 3xl:w-[13rem] flex-col items-center h-[13rem] day justify-around py-2 md:text-3xl 3xl:top-[0rem]  xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today4 relative  mx-auto w-[24%]">
                   <p className="text-lg singleDayH1 xl:text-4xl md:text-4xl lg:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                   <p className="text-sm date md:text-3xl xl:text-2xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
                     {month}/{dayDate}/{year}
@@ -191,7 +191,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
               )
             } else if (index === 3) {
               return (
-                <div key={index} className="flex 3xl:h-[20rem] 2xl:relative 2xl:top-[55%] 3xl:w-[13rem] 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[55%] xl:w-[13rem] 2xl:w-[12rem] lg:relative lg:top-[28rem] lg:h-80 3xl:top-[0rem]lg:w-48 md:w-[11.8rem] md:h-[18rem] 3xl:text-3xl xs:h-[10rem] flex-col items-center h-[13rem] day justify-around py-2 3xl:top-[0rem] md:text-3xl xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today4 relative  mx-auto w-[24%]">
+                <div key={index} className="flex 3xl:h-[20rem] 3xl:w-[13rem] 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[36rem] xl:w-[13rem] 2xl:w-[12rem] lg:relative lg:top-[28rem] lg:h-80 3xl:top-[0rem]lg:w-48 md:w-[11.8rem] md:h-[18rem] 3xl:text-3xl xs:h-[10rem] flex-col items-center h-[13rem] day justify-around py-2 3xl:top-[0rem] md:text-3xl xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today4 relative  mx-auto w-[24%]">
                   <p className="text-lg singleDayH1 xl:text-4xl md:text-4xl lg:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                   <p className="text-sm date md:text-3xl xl:text-2xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
                     {month}/{dayDate}/{year}
@@ -217,7 +217,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
               )
             } else if (index === 4) {
               return (
-                <div key={index} className="flex 3xl:h-[20rem] 3xl:w-[13rem] 2xl:relative 2xl:top-[55%] 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[55%] xl:w-[13rem] 2xl:w-[12rem] lg:h-80 lg:w-48 lg:relative lg:top-[28rem]  md:w-[11.8rem] md:h-[18rem] 3xl:text-3xl justify-around xs:h-[10rem] flex-col items-center day py-2 h-[13rem] md:text-3xl 3xl:top-[0rem] xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today5 w-[24%] mr-1 relative">
+                <div key={index} className="flex 3xl:h-[20rem] 3xl:w-[13rem] 2xl:h-[16rem] xl:h-[25rem] xl:relative xl:top-[36rem] xl:w-[13rem] 2xl:w-[12rem] lg:h-80 lg:w-48 lg:relative lg:top-[28rem]  md:w-[11.8rem] md:h-[18rem] 3xl:text-3xl justify-around xs:h-[10rem] flex-col items-center day py-2 h-[13rem] md:text-3xl 3xl:top-[0rem] xs:top-[10rem] md:relative md:top-[23.5rem] top-[17rem] today5 w-[24%] mr-1 relative">
                   <p className="text-lg xl:text-4xl singleDayH1 md:text-4xl lg:text-4xl 3xl:text-3xl 2xl:text-3xl">{dayName}</p>
                   <p className="text-sm date xl:text-2xl md:text-3xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
                     {month}/{dayDate}/{year}

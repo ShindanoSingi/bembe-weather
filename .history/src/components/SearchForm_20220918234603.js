@@ -10,7 +10,7 @@ const SearchForm = ({
   handleChangeCountry,
 }) => {
   return (
-    <div className="mx-1 mb-2 md:mb-2 xl:mb-2 lg:mb-2">
+    <div className="mx-1 mb-2">
       <form className="gap-4 form-container" onSubmit={handleSubmit} d-flex>
         <div className="flex flex-col items-center gap-1 3xl:flex 3xl:gap-4 xl:flex xl:flex-col xl:gap-6 lg:flex lg:flex-col lg:gap-2 form-container">
           <div className="flex flex-col gap-1 3xl:flex 3xl:gap-4 xl:flex xl:flex-col xl:gap-6 lg:flex lg:flex-col lg:gap-2 md:flex md:flex-col md:gap-2">

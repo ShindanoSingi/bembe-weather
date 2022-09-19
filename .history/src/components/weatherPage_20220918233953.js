@@ -77,7 +77,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
         {city}, {state}, {country}{" "}
       </div>
 
-      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[36rem] 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:px-20 xl:h-[62rem] 2xl:h-[70vh] 3xl:flex 3xl:items-center 3xl:px-[9rem] 3xl:relative 3xl:top-16 3xl:w-[80vw] mx-auto weatherContainer">
+      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[36rem] 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:px-20 xl:h-[62rem] 2xl:h-[34rem] 3xl:flex 3xl:items-center 3xl:px-[9rem] 3xl:relative 3xl:top-16 3xl:w-[80vw] mx-auto weatherContainer">
         {weekDays.map((day, index) => {
           // Source https://www.youtube.com/watch?v=nGVoHEZojiQ
           const dayAndDate = new Date(day.dt * 1000).toUTCString()
@@ -139,7 +139,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
           else {
             if (index === 1) {
               return (
-                <div key={index} className="flex 3xl:w-[13rem] xl:h-[25rem] 2xl:relative 2xl:top-[55%] xl:w-[13rem] 2xl:h-[16rem] lg:h-80 3xl:h-[20rem] lg:w-48 md:w-[11.8rem] 2xl:w-[12rem] md:h-[18rem]  justify-around lg:relative lg:top-[28rem] xs:relative ml-1 flex-col items-center py-2 h-[13rem] xs:h-[10rem] xs:top-[10rem] 3xl:top-[0rem] md:relative md:top-[23.5rem] xl:relative xl:top-[55%] top-[17rem]  today2 w-[24%]  relative mx-auto">
+                <div key={index} className="flex 3xl:w-[13rem] xl:h-[25rem] 2xl:relative 2xl:top-[55%]xl:w-[13rem] 2xl:h-[16rem] lg:h-80 3xl:h-[20rem] lg:w-48 md:w-[11.8rem] 2xl:w-[12rem] md:h-[18rem]  justify-around lg:relative lg:top-[28rem] xs:relative ml-1 flex-col items-center py-2 h-[13rem] xs:h-[10rem] xs:top-[10rem] 3xl:top-[0rem] md:relative md:top-[23.5rem] xl:relative xl:top-[55%] top-[17rem]  today2 w-[24%]  relative mx-auto">
                   <p className="text-lg singleDayH1 md:text-4xl xl:text-4xl lg:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                   <p className="text-sm date xl:text-2xl md:text-3xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
                     {month}/{dayDate}/{year}
