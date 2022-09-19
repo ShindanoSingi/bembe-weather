@@ -112,7 +112,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
 
 
                 <img
-                  className="scale-100 icon1"
+                  className="scale-150 xs:scale-100 icon1"
                   src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                   alt=""
                 />
@@ -146,7 +146,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -172,7 +172,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -198,7 +198,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -224,7 +224,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />

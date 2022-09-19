@@ -95,7 +95,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
 
           // Max temp
           let maxTempF = parseInt(day.temp.max)
-
+          
           //Current temperature
           let currentTempF = parseInt(weatherData.current.temp)
 

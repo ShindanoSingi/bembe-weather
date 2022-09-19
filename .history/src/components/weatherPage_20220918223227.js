@@ -103,7 +103,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
           if (index === 0 && index !== 7) {
             console.log(index)
             return (
-              <div key={index} className="fixed 2xl:h-[16rem] xl:h-[25rem] xl:absolute xl:top-[8rem] xl:left-[39%] xl:w-[15rem] lg:fixed flex flex-col 2xl:left-[43%] 2xl:top-[5rem] items-center px-2 xl:flex xl:justify-around lg:top-[6rem] py-1 left-[36%] h-[13rem] xs:left-[10%] xs:flex-row xs:h-[4.5rem] lg:left-[39%] lg:h-80 lg:w-48 xs:justify-baseline top-[3rem] md:left-[36vw] md:top-[4.5rem] md:w-[15rem] md:h-[18.5rem] place-content-center md:flex 3xl:left-0 3xl:top-[0rem] 3xl:h-[24rem] 2xl:w-[12rem] md:flex-col md:justify-around xs:w-[80vw] md:text-xl today1 3xl:relative 3xl:w-[13rem] 3xl:flex 3xl:justify-around">
+              <div key={index} className="relative 2xl:h-[16rem] xl:h-[25rem] xl:absolute xl:top-[8rem] xl:left-[39%] xl:w-[15rem] lg:fixed flex flex-col 2xl:left-[43%] 2xl:top-[5rem] items-center px-2 xl:flex xl:justify-around lg:top-[6rem] py-1 left-[36%] h-[13rem] xs:left-[10%] xs:flex-row xs:h-[4.5rem] lg:left-[39%] lg:h-80 lg:w-48 xs:justify-baseline top-[3rem] md:left-[36vw] md:top-[4.5rem] md:w-[15rem] md:h-[18.5rem] place-content-center md:flex 3xl:left-0 3xl:top-[0rem] 3xl:h-[24rem] 2xl:w-[12rem] md:flex-col md:justify-around xs:w-[80vw] md:text-xl today1 3xl:relative 3xl:w-[13rem] 3xl:flex 3xl:justify-around">
 
                 <p className="text-lg lg:text-4xl md:text-4xl single1 xl:text-4xl 2xl:text-3xl 3xl:text-3xl">{dayName}</p>
                 <p className="text-sm md:text-3xl date1 xl:text-2xl lg:text-3xl 2xl:text-xl 3xl:text-2xl">
@@ -112,7 +112,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
 
 
                 <img
-                  className="scale-100 icon1"
+                  className="scale-150 xs:scale-100 icon1"
                   src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                   alt=""
                 />
@@ -146,7 +146,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -172,7 +172,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -198,7 +198,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
@@ -224,7 +224,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                   </p>
 
                   <img
-                    className="scale-100 icon"
+                    className="scale-150 xs:scale-100 icon"
                     src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
                     alt=""
                   />
