@@ -72,7 +72,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
   ) : (
     <div className="bodyContainer">
       {/* Display the city */}
-      <div className="relative top-0 w-screen py-2 text-xl text-center xl:text-4xl xl:p-4 lg:p-4 lg:text-4xl 2xl:text-4xl 2xl:p-4 md:text-4xl md:py-3 3xl:text-4xl 3xl:p-3 cityStateCountry text-blue-50">
+      <div className="relative top-0 w-screen py-6 text-xl text-center xl:text-4xl xl:p-4 lg:p-4 lg:text-4xl 2xl:text-4xl 2xl:p-4 md:text-4xl md:py-3 3xl:text-4xl 3xl:p-3 cityStateCountry text-blue-50">
         {" "}
         {city}, {state}, {country}{" "}
       </div>
