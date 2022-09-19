@@ -56,6 +56,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
   let today7 = new Date(
     todayObject.setDate(todayObject.getDate() + 1)
   ).toUTCString()
+  today7 = today7.toString().substring(0, 3)
 
   return weatherData.length < 1 ? (
     <div >

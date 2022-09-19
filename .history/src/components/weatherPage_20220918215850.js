@@ -242,8 +242,8 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
                 </div>
               )
             }
-          }
-        }
+          } 
+return 1}
           )
           }
       </div>

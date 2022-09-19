@@ -243,7 +243,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
               )
             }
           }
-        }
+return 1}
           )
           }
       </div>

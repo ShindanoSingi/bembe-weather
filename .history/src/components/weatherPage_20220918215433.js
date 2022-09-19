@@ -44,18 +44,21 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
   let today5 = new Date(
     todayObject.setDate(todayObject.getDate() + 1)
   ).toUTCString()
+  today5 = today5.toString().substring(0, 3)
 
   // The last day
   // eslint-disable-next-line
   let today6 = new Date(
     todayObject.setDate(todayObject.getDate() + 1)
   ).toUTCString()
+  today6 = today6.toString().substring(0, 3)
 
   // The last day
   // eslint-disable-next-line
   let today7 = new Date(
     todayObject.setDate(todayObject.getDate() + 1)
   ).toUTCString()
+  today7 = today7.toString().substring(0, 3)
 
   return weatherData.length < 1 ? (
     <div >
