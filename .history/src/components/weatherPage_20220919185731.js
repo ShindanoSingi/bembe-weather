@@ -77,7 +77,7 @@ const WeatherPage = ({ city, state, country, weatherData }) => {
         {city}, {state}, {country}{" "}
       </div>
 
-      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[21rem] md:items-center 2xl:px-4 2xl:mt-4 lg:px-4 lg:h-[50rem] xl:h-[30rem] md:mt-4 md:px-2 xl:mt-6 xl:px-2 2xl:h-[21rem] 2xl:w-[60rem] 3xl:flex 3xl:items-center 3xl:px-[9rem] xl:flex 2xl:items-center xl:items-center 3xl:relative 3xl:top-16 3xl:w-[53vw]  xl:w-[98vw] mx-auto weatherContainer">
+      <div className="flex h-[30.5rem] xs:h-[20.5rem] md:h-[21rem] md:items-center 2xl:px-[19%] lg:px-4 lg:h-[50rem] xl:h-[30rem] md:mt-4 md:px-2 xl:mt-6 xl:px-2 2xl:h-[70vh] 3xl:flex 3xl:items-center 3xl:px-[9rem] xl:flex 2xl:items-center xl:items-center 3xl:relative 3xl:top-16 3xl:w-[53vw]  xl:w-[98vw] mx-auto weatherContainer">
         {weekDays.map((day, index) => {
           // Source https://www.youtube.com/watch?v=nGVoHEZojiQ
           const dayAndDate = new Date(day.dt * 1000).toUTCString()
